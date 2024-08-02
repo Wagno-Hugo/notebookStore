@@ -1,0 +1,22 @@
+/* link paleta de cores: https://color.adobe.com/pt/search?q=ecommerce%20notebook*/
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.card-title {
+    max-width: 25ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+
+body {
+    background: radial-gradient(ellipse,#171EA6,#050326) ;
+}
+
+footer {
+    color:#F2F2F2;
+}
+.btn.btn-primary {
+    background-color: #D941B0;
+}
+
