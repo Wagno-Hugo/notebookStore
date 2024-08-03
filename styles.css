@@ -58,5 +58,20 @@ footer p a:active {
     border: none;
     
 }
+.carousel-item {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#sectionsImg1 {
+    background-image: url(img/2.png);
+}
+#sectionsImg2 {
+    background-image: url(img/3.png);
+}
+#sectionsImg3 {
+    background-image: url(img/4.png);
+}
 
 
