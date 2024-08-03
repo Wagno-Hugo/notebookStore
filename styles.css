@@ -13,10 +13,50 @@ body {
     background: radial-gradient(ellipse,#171EA6,#050326) ;
 }
 
+.navbar-brand {
+    color: #F2F2F2;
+    font-size: 2rem;
+    font-weight: 600;
+}
+a:hover.navbar-brand {
+    color: #D941B0;
+}
+.nav-link {
+    font-size: 1rem;
+    color: #F2F2F2;
+}
+a:hover.nav-link {
+    text-decoration: none;
+    color: #D941B0;
+}
+a.active {
+    text-decoration: none;
+    color: #D941B0 !important;
+}
 footer {
+    border-top: 0.20rem solid #F2F2F2 ;
+    color:#F2F2F2;
+    font-size: 1rem;
+}
+/* cor link */
+footer p a:link {
+    text-decoration: none;
+    color: #F2F2F2 !important;
+}
+/* cor link com mouse sobre */
+footer p a:hover {
+    text-decoration: none;
+    color:#D941B0;
+}
+/* cor link ativo */
+footer p a:active {
+    text-decoration: none;
     color:#F2F2F2;
 }
 .btn.btn-primary {
     background-color: #D941B0;
+    border: none;
+    
 }
+
 
