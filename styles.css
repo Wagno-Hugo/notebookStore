@@ -12,7 +12,10 @@
 body {
     background: radial-gradient(ellipse,#171EA6,#050326) ;
 }
-
+h1 {
+    color: #F2F2F2;
+    font-size: 3rem;
+}
 .navbar-brand {
     color: #F2F2F2;
     font-size: 2rem;
@@ -73,5 +76,8 @@ footer p a:active {
 #sectionsImg3 {
     background-image: url(img/4.png);
 }
-
+#containerCart {
+    font-size: 1.5rem;
+    border-radius: 30px;
+}
 
